@@ -36,8 +36,8 @@ public class TweetCorpusDownloader {
 
 	// very simple example of multi-threading downloading
 	public static void main(String[] args) {
-		String idFile = "tweets_200.txt";
-		String responseFile = "responses.txt";
+		String idFile = "tweets_27K.txt";
+		String responseFile = "responses_27K.txt";
 
 		try {
 			downloadIdsMultiThread(idFile, responseFile, true, 10);
